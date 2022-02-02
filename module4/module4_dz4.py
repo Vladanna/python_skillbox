@@ -1,0 +1,6 @@
+secondNames = list([s for s in input("Введите фамилию через запятую: ").split(",")])
+accounts = list([int(s) for s in input("Введите счет через запятую: ").split(",")])
+zipper_value = zip(secondNames, accounts)
+zipper_people = list(zipper_value)
+print(zipper_people)
+print("Сумма счетов", sum(accounts))
