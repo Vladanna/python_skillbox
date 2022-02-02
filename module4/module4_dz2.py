@@ -4,6 +4,7 @@ symbol_operation = input("Введите операцию: ")
 
 
 def execute(first_number, second_number, operation):
+    thirdNumber = 0
     if operation == "+":
         thirdNumber = first_number + second_number
     elif operation == "-":
@@ -12,8 +13,6 @@ def execute(first_number, second_number, operation):
         thirdNumber = first_number * second_number
     elif operation == "/":
         thirdNumber = first_number / second_number
-    else:
-        thirdNumber = "Данные неккоретны"
     return thirdNumber
 
 
